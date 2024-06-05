@@ -1,3 +1,5 @@
+// Anshul Kumar's Module 12 assignment for Comp 690 at SDCCE in spring 2024
+
 // Get form and selected album from the DOM
 let form = document.getElementById('albumSelectForm')
 let chooser = document.getElementById('albumDropdown')
