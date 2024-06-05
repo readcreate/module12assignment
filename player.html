@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M12 Assignment - The Music Player Application</title>
-    <script src="js/player.js"></script>
+    <script src="js/player.js" defer></script>
 </head>
 <body>
     <h1>The Music Player</h1>
-    <!-- ADD DROP DOWN MENU -->
-    <!-- ADD PLAY BUTTON -->
+
+    <div class="container">
+        <div id="main" class="card card-body">
+            <h2 class="title">Choose an album</h2>
+            <form action="" id="albumSelectForm" class="form-inline mb-3 d-flex">
+                <!-- ADD DROP DOWN MENU -->
+                <select id="albumDropdown" name="cars"></select>
+                <input type="submit" value="Play" class="btn btn-dark">
+            </form>
+    
+            <h2 class="title">Favorite album</h2>
+            <form action="" id="favButtonForm" class="form-inline mb-3 d-flex">
+                <input type="submit" value="Show my favorite album" class="btn btn-dark">
+            </form>
+            <h3 id="favoriteShower"></h3>
+            <!-- <span class="alert alert-warning mt-3" id="emptyMessage">There are no items in your list to display.</span> -->
+        </div>
+    </div>
+
+    
     <!-- ADD SHOW FAVORITE ALBUM BUTTON -->
     <p id="favoriteAlbum"></p>
 </body>

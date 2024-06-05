@@ -130,6 +130,5 @@
 //         console.log('No matches were found')
 //     }
 // }
-
 // 'the the it it it and'.findWords('it') // 3 matches
 // 'the the it it it and'.findWords('clifford') // no matches
